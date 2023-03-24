@@ -14,4 +14,5 @@ text = 'Норм)'
 async def auto_answer(event, message):
         await app.send_message(chat_id=message.chat.id, text=text)
 
+
 app.run()
